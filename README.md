@@ -4,8 +4,16 @@ The `gitclone` command attempts to use git to clone the specified repo and then 
 
 ## Supported project types
 
-- [ ] Go (modules)
-- [ ] Node (NPM & Yarn)
+- [x] Go (modules)
+- [x] NPM
+- [x] Yarn
+
+## Install
+
+```sh
+go get github.com/stevegood/gitclone && \
+go install github.com/stevegood/gitclone
+```
 
 ## Usage
 
